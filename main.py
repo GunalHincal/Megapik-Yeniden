@@ -12,6 +12,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 import os
 os.environ["HF_HOME"] = "/tmp/hf_home"
 
+
 # Eğer ChromaDB veritabanı yoksa, yeniden oluştur
 if not os.path.exists("chroma_db"):
     print("📌 ChromaDB oluşturuluyor...")

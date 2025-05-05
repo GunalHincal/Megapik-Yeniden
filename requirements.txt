@@ -47,6 +47,7 @@ huggingface-hub[hf_xet]==0.30.2
 # pip freeze > requirements.txt --all	             Ortamdaki tüm paketlerin versiyonlarını requirements.txt olarak kaydeder, ama global paketleri dahil etmez
 
 
+
 # In your PowerShell (run as Administrator just to be safe), do:
 # powershell
 # Get-Process python* -ErrorAction SilentlyContinue | Stop-Process -Force   

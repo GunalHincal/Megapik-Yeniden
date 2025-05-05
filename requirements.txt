@@ -24,10 +24,9 @@ langchain-huggingface==0.1.2
 pymupdf==1.25.5
 
 # Embedding için
-sentence-transformers==4.1.0
-torch==2.7.0
+# sentence-transformers==4.1.0
+# torch==2.7.0
 huggingface-hub[hf_xet]==0.30.2
-
 
 
 

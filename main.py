@@ -192,6 +192,9 @@ if __name__ == "__main__":
 # 🔹 Eğer bu dosyayı doğrudan çalıştırıyorsanız, FastAPI sunucusunu başlatın
 # uvicorn main:app --reload --port 8001
 
+# eğer json bilgisi gelirse pycache ı temizleyip komutu yeniden çalıştırın
+# Remove-Item -Recurse -Force __pycache__
+# uvicorn main:app --reload --port 8001
 
 
 # 📌 8️⃣ Şu soruları sor:

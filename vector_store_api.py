@@ -135,6 +135,7 @@ if __name__ == "__main__":
 # Remove-Item -Recurse -Force .\chroma_db
 # Remove-Item -Path .\static\backgrounds -Recurse -Force
 # Remove-Item -Path .\venv -Recurse -Force
+# Remove-Item -Recurse -Force __pycache__
 
 # 📌 Eğer 8000 portu zaten kullanılıyorsa, başka bir port deneyebilirsiniz:
 # uvicorn vector_store_api:app --host 127.0.0.1 --port 8080 --reload
@@ -157,4 +158,4 @@ if __name__ == "__main__":
 # 🚀 Burada /create_vector_store endpointine basıp, ChromaDB’nin düzgün çalıştığını görebilirsin!
 
 # http://127.0.0.1:8001/ → "Vector Store API Çalışıyor!"
-# http://127.0.0.1:8001/test → "Bu bir test endpointidir."s
+# http://127.0.0.1:8001/test → "Bu bir test endpointidir."
